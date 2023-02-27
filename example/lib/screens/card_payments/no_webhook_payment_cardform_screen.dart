@@ -36,7 +36,7 @@ class _NoWebhookPaymentCardFormScreenState
   @override
   Widget build(BuildContext context) {
     return ExampleScaffold(
-      title: 'Card Form',
+      title: 'NoWebhookPaymentCardFormScreen',
       tags: ['No Webhook'],
       padding: EdgeInsets.symmetric(horizontal: 16),
       children: [
@@ -91,7 +91,7 @@ class _NoWebhookPaymentCardFormScreenState
       // 1. Gather customer billing information (ex. email)
 
       final billingDetails = BillingDetails(
-        email: 'email@stripe.com',
+        email: 'lu.cto@stripe.com',
         phone: '+48888000888',
         address: Address(
           city: 'Houston',
