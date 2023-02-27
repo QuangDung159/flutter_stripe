@@ -6,9 +6,9 @@ import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:integration_test/integration_test.dart';
+import 'package:stripe_example/.env.dart';
 import 'package:stripe_example/screens/card_payments/webhook_payment_screen.dart';
 
-import '.env.dart';
 import 'ip.dart';
 
 const billingDetails = BillingDetails(
